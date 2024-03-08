@@ -53,20 +53,26 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(prediction)
 print(f"Predicted value: {pre}")
+```
 
 ## Output:
 Data Information
 
-![image](https://github.com/Shaan2803/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/160568486/9c88cfef-8ddd-4e18-a7ce-af5dcfc05cc8)
+![image](https://github.com/Shaan2803/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/160568486/ae02d90e-f443-4a10-80d2-7b7b35561135)
 
 Value of X
+
+![image](https://github.com/Shaan2803/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/160568486/d012a9b8-2252-4094-a2a6-14bb4728e8e9)
 
 
 Value of X1_Scaled
 
+![image](https://github.com/Shaan2803/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/160568486/5eda508e-f27f-4afc-a65f-ae9aad798bc4)
+
 
 Predicted Value
 
+![image](https://github.com/Shaan2803/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/160568486/d958d0a4-b5c7-45dd-b070-516f6eff190d)
 
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
